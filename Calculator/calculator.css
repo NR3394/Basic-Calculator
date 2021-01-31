@@ -1,0 +1,63 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+#firstDiv {
+
+  border: 15px solid black;
+  padding: 75px 75px 75px 75px;
+  margin:0 auto;
+  width: 50%;
+
+}
+
+#results {
+  text-align: center;
+  padding: 50px 100px 50px 100px;
+
+}
+
+form {
+margin: 0 auto;
+
+}
+
+#operator {
+  position: relative;
+  left: 300px;
+  bottom: 50px;
+  top: 50px;
+  }
+#operatorLabel {
+  position: relative;
+  left: 300px;
+  bottom: 50px;
+  top: 50px;
+
+}
+
+#btn {
+  position: relative;
+  left: 340px;
+  bottom: 60px;
+  top: 60px;
+
+}
+
+#value1 {
+  position: relative;
+  left: 130px;
+}
+#valueOne {
+  position: relative;
+  left: 130px;
+}
+#value2 {
+  position: relative;
+  left: 130px;
+}
+#valueTwo {
+  position: relative;
+  left: 130px;
+}

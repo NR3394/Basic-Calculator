@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body>
+    <h1> Calculator </h1>
+    <div id="firstDiv">
+      <form>
+        <label for="valueOne" id="value1"><strong>Value 1:</strong></label>
+        <input type="text" name="valueOne" id="valueOne">
+        <label for="valueTwo" id="value2"><strong>Value 2:</strong></label>
+        <input type="text" name="valueTwo" id="valueTwo"><br />
+        <label for="operator" id="operatorLabel"><strong>Operator:</strong></label>
+          <select id="operator" name="operator">
+            <option value="Add">Add</option>
+            <option value="Subtract">Subtract</option>
+            <option value="Multiply">Multiply</option>
+            <option value="Divide">Divide</option>
+          </select><br />
+          <button type="button" id="btn">Calculate!</button>
+      </form>
+    </div>
+    <div id="results">
+      <strong>Results :</strong>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
